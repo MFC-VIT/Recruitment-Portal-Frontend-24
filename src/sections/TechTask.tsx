@@ -199,27 +199,36 @@ export default TechTask;
 const techTaskData = [
   {
     label: "ai/ml",
-    title:
-      "Task: Develop a YouTube Volume Controller using Hand Gestures with OpenCV",
+    title: "Create a simple chat-bot using python libraries. ",
     description:
-      "Description: Create a real-time application that allows users to control the volume of a YouTube video using hand gestures captured by a webcam. This project will involve computer vision techniques for hand detection and gesture recognition using OpenCV.",
-    resources: ["https://docs.opencv.org/"],
+      "Provide a set of predefined questions and answers. Ask candidates to write a Python script that responds to user inputs based on these predefined rules. The chat-bot should be able to recognize key phrases or words in the user’s input and respond accordingly.",
+    resources: [],
     for: "junior",
   },
   {
     label: "ai/ml",
-    title:
-      "Task: Develop a Handwritten Digit Recognition Model using the MNIST Dataset",
+    title: "Build a movie recommendation system",
     description:
-      "Description: Build a machine learning model to recognize handwritten digits (0-9) using the popular MNIST dataset. This project will introduce you to image classification tasks and basic machine learning techniques.",
-    resources: ["https://www.kaggle.com/c/digit-recognizer/data"],
+      "Use Python (and a library like pandas). Create a script that recommends movies based on user ratings. Example dataset could be a csv file with columns user_id,movie_id,rating etc. Recommend movies to a user based on their previous ratings.",
+    resources: [],
     for: "junior",
   },
   {
     label: "ai/ml",
-    title: "Task: Develop a basic AI agent to play a simple game",
+    title: "Basic Linear Regression Model",
     description:
-      "Description:Your objective is to create a simple AI agent capable of playing either Tic-Tac-Toe or Connect Four against human players or other AI agents. Choose one of these games and implement the AI logic using any programming language of your choice.",
+      "Implement a simple linear regression model to understand the basics of machine learning. Use a small dataset, such as predicting house prices based on square footage. The goal is to implement the linear regression algorithm from scratch, without using high-level libraries like Scikit-Learn for the model.",
+    resources: [
+      "https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a",
+    ],
+    for: "junior",
+  },
+  {
+    label: "ai/ml",
+    title: "Basic Data Visualization",
+    description:
+      "Create a simple data visualization project to understand the basics of handling and visualizing data. Use a small dataset (e.g., Iris dataset) and create visualizations such as scatter plots, bar charts, and histograms to explore the data.",
+    resources: ["https://matplotlib.org/stable/index.html"],
     for: "junior",
   },
   {
@@ -273,15 +282,15 @@ const techTaskData = [
     label: "game",
     title: "Task: Develop a Basic Scene Setup with Unity Engine",
     description:
-      "Description: Arrange and position game objects within the scene, such as characters, props, and obstacles. Design and implement user interfaces using Unity's UI system. Create menus, buttons, health bars, and other UI elements as needed for the game.",
+      "Set up a new scene in Unity. Create and customize terrain (e.g., add hills, valleys,rivers). Set up a directional light and position the main camera. Place a few game objects (e.g., a character, trees, rocks,other side characters etc) in the scene. For submission include the unity project files and a video showing the scene(video optional but appreciated if included).",
     for: "junior",
   },
 
   {
     label: "game",
-    title: "Task: Develop a Basic Levels Setup with Unreal Engine",
+    title: "Basic UI Implementation in Unity: ",
     description:
-      "Description: Model and animate characters using Unreal Engine's animation tools or import pre-made assets. Rig characters for skeletal animation and set up animation blueprints for movement and interactions. Create animations for actions such as walking, running, jumping, and attacking.",
+      "Add UI elements such as a start menu, health bar, and score display. Write scripts to handle UI interactions (e.g., start game button, updating health and score). Arrange UI elements on the screen. For submission include the unity project files and a video showing the scene(video optional but appreciated if included).",
     for: "junior",
   },
 
@@ -322,7 +331,7 @@ const techTaskData = [
     label: "backend",
     title: "Task: Devlop a Simple Blog API",
     description:
-      "Build a secure blogging app with user registration and login (authentication). Users can manage their blog posts: view all, create new, edit, and delete them.  Bonus features include a search function and a like system to enhance user interaction.",
+      "Design a user-friendly blogging platform allowing users to effectively manage their posts. With this app, users can easily browse through all their posts, write new ones, make edits, and delete old ones. You have the freedom to select the backend framework that best suits your needs.",
     for: "junior",
   },
 
@@ -346,17 +355,21 @@ const techTaskData = [
     label: "frontend",
     title: "Task: Replicate the UI",
     description:
-      "Your task is to create a blog website UI similar to the design provided in the Dribbble shot linked below. You have the freedom to use any framework or technology you prefer, whether it's plain HTML/CSS, React, Vue.js, or any other framework. Your goal is to replicate the design as closely as possible, including layout, colors, typography, and any interactive elements.Including some animations and responsiveness in the website is bonus.",
+      "Your task is to create a replica of the following authentication page as closely as possible. You can use any front-end technology of your choice, such as HTML, CSS, JavaScript, React, Angular, Vue, etc. The page should be responsive and visually identical to the design provided in the Dribbble shot. You can use placeholder text for the form fields and buttons, but the overall layout, colors, and styles should match the design. Try to implement the theme change functionality as well.",
     for: "junior",
-    resources: ["https://dribbble.com/shots/18841111-Blog-Website-Design"],
+    resources: [
+      "https://cdn.dribbble.com/users/6816261/screenshots/16024513/media/dfe89b08449994c393095876f4f40d40.mp4",
+    ],
   },
   {
     label: "fullstack",
-    title: "Fullstack Blog Application Task",
+    title: "Form Submission and Admin Panel",
     description:
-      "You are tasked with building a full-stack blog application that allows users to create, read, update, and delete blog posts. The application should have a beautiful user interface inspired by the design provided in this Dribbble shot. The backend should handle user authentication and authorization, ensuring that only authenticated users can create, edit, or delete their own blog posts.",
+      "Try to create a replica of the following contact page design as closely as possible. You can use any front-end technology of your choice, such as HTML, CSS, JavaScript, React, Angular, Vue, etc. The page should be responsive and visually identical to the design provided in the Dribbble shot. After submission of the form, the data must be saved to a database of your choice, you can create backend for this project using any framework or technology of your choice. In addition to this, create a seperate page for the admin, where the admin can view all the contact form submissions.",
     for: "junior",
-    resources: ["https://dribbble.com/shots/18841111-Blog-Website-Design"],
+    resources: [
+      "https://dribbble.com/shots/18739948-Contact-us-UI-design/attachments/13926326?mode=media",
+    ],
   },
   {
     label: "fullstack",
