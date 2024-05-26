@@ -199,18 +199,18 @@ export default TechTask;
 const techTaskData = [
   {
     label: "ai/ml",
-    title: "Create a simple chat-bot using python libraries. ",
+    title: "Simple Mad Libs Game",
     description:
-      "Provide a set of predefined questions and answers. Ask candidates to write a Python script that responds to user inputs based on these predefined rules. The chat-bot should be able to recognize key phrases or words in the user’s input and respond accordingly.",
-    resources: [],
+      "Create a basic Mad Libs game where the program asks the user to input various words (e.g., nouns, verbs, adjectives), and then insert those words into a pre-defined story template to generate a funny story.",
+    resources: ["https://www.madlibs.com/"],
     for: "junior",
   },
   {
     label: "ai/ml",
-    title: "Build a movie recommendation system",
+    title: "Number Guessing Game",
     description:
-      "Use Python (and a library like pandas). Create a script that recommends movies based on user ratings. Example dataset could be a csv file with columns user_id,movie_id,rating etc. Recommend movies to a user based on their previous ratings.",
-    resources: [],
+      "Create a simple number guessing game where the computer randomly selects a number within a given range (e.g., 1 to 100), and the player has to guess the number. The game should provide feedback on whether the guess is too high, too low, or correct.",
+    resources: ["https://codepen.io/touchportyl-ns/pen/powKVGp"],
     for: "junior",
   },
   {

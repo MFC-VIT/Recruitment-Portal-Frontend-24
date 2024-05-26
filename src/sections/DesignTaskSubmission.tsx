@@ -138,22 +138,22 @@ const DesignTaskSubmission = ({ setOpenToast, setToastContent }: Props) => {
       // console.log("userDomains2:", userDomains);
     }
   }, []);
-  // if (designIsDone) {
-  //   return (
-  //     <div className="p-4">
-  //       You've successfully submitted the Design Task. You can now track the
-  //       status of your application in the designated "Application Status" tab.
-  //     </div>
-  //   );
-  // }
+  if (designIsDone) {
+    return (
+      <div className="p-4">
+        You've successfully submitted the Design Task. You can now track the
+        status of your application in the designated "Application Status" tab.
+      </div>
+    );
+  }
   return (
     <>
-      <div className="p-4">
+      {/* <div className="p-4">
         The time limit for task submissions has ended. Kindly await the results,
         which will be available in the application status tab, if you have
         submitted the tasks.
-      </div>
-      {/* <section className="mb-2  text-xs md:text-sm">
+      </div> */}
+      <section className="mb-2  text-xs md:text-sm">
         Append all your design tasks in following manner:
         <br />
         <span className="text-prime">
@@ -260,14 +260,14 @@ const DesignTaskSubmission = ({ setOpenToast, setToastContent }: Props) => {
                   </label>
                 ))}
               </div>
-              {/* <textarea
+              <textarea
                 id="textarea_field"
                 className="nes-textarea is-dark min-h-[5rem]"
                 required
                 name={quiz.label}
                 placeholder="Write here..."
-              ></textarea> */}
-      {/* </div>
+              ></textarea>
+            </div>
           ))}
           {quizSubQuestions.map((quiz, index) => (
             <div
@@ -307,7 +307,7 @@ const DesignTaskSubmission = ({ setOpenToast, setToastContent }: Props) => {
         >
           Submit
         </button>
-      </form> */}
+      </form>
     </>
   );
 };

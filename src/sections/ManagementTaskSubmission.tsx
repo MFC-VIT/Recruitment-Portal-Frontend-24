@@ -163,23 +163,23 @@ const ManagementTaskSubmission = ({ setOpenToast, setToastContent }: Props) => {
       // console.log("userDomains2:", userDomains);
     }
   }, []);
-  // if (managementIsDone) {
-  //   return (
-  //     <div className="p-4">
-  //       You've successfully submitted the Managaement Task. You can now track
-  //       the status of your application in the designated "Application Status"
-  //       tab.
-  //     </div>
-  //   );
-  // }
+  if (managementIsDone) {
+    return (
+      <div className="p-4">
+        You've successfully submitted the Managaement Task. You can now track
+        the status of your application in the designated "Application Status"
+        tab.
+      </div>
+    );
+  }
   return (
     <>
-      <div className="p-4">
+      {/* <div className="p-4">
         The time limit for task submissions has ended. Kindly await the results,
         which will be available in the application status tab, if you have
         submitted the tasks.
-      </div>
-      {/* <section className="mb-4 text-xs md:text-sm">
+      </div> */}
+      <section className="mb-4 text-xs md:text-sm">
         Append all your management tasks in following manner:
         <br />
         <span className="text-prime">[SubDomain] - [Link 1]</span>
@@ -301,7 +301,7 @@ const ManagementTaskSubmission = ({ setOpenToast, setToastContent }: Props) => {
         >
           Submit
         </button>
-      </form> */}
+      </form>
     </>
   );
 };

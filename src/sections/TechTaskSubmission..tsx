@@ -129,22 +129,22 @@ const TechTaskSubmission = ({ setOpenToast, setToastContent }: Props) => {
       // console.log("userDomains2:", userDomains);
     }
   }, []);
-  // if (isTechDone) {
-  //   return (
-  //     <div className="p-4">
-  //       You've successfully submitted the Tech Task. You can now track the
-  //       status of your application in the designated "Application Status" tab.
-  //     </div>
-  //   );
-  // }
+  if (isTechDone) {
+    return (
+      <div className="p-4">
+        You've successfully submitted the Tech Task. You can now track the
+        status of your application in the designated "Application Status" tab.
+      </div>
+    );
+  }
   return (
     <>
-      <div className="p-4">
+      {/* <div className="p-4">
         The time limit for task submissions has ended. Kindly await the results,
         which will be available in the application status tab, if you have
         submitted the tasks.
-      </div>
-      {/* <section className="mb-4 text-xs md:text-sm">
+      </div> */}
+      <section className="mb-4 text-xs md:text-sm">
         Append all your tech tasks in following manner:
         <br />
         <span className="text-prime">
@@ -219,6 +219,16 @@ const TechTaskSubmission = ({ setOpenToast, setToastContent }: Props) => {
               />
               <span className="text-xs md:text-xs">Game Dev</span>
             </label>
+            <label>
+              <input
+                type="checkbox"
+                className="nes-checkbox is-dark"
+                value="cp"
+                checked={subdomain.includes("cp")}
+                onChange={handleCheckboxChange}
+              />
+              <span className="text-xs md:text-xs">CP</span>
+            </label>
           </div>
         </div>
         <textarea
@@ -271,7 +281,7 @@ const TechTaskSubmission = ({ setOpenToast, setToastContent }: Props) => {
         >
           Submit
         </button>
-      </form> */}
+      </form>
     </>
   );
 };
