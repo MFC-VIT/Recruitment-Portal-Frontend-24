@@ -28,7 +28,7 @@ const Header = ({
       </button>
       <button
         className={`nes-btn btn-header ${tabIndex === 2 && "is-success"}`}
-        onClick={() => setTabIndex(2)}
+        /*onClick={() => setTabIndex(2)}*/
       >
         <span className="text-xl">3</span>
         <p className="text-xs hidden lg:block">
