@@ -30,7 +30,7 @@ The official Frontend of MFC-VIT recruitment of 2024.
 
 1.  Clone the Repository:
 
-    `git clone `
+    `git clone https://github.com/MFC-VIT/Recruitment-Portal-Frontend-24.git`
 
 2.  Install all the dependencies:
 
@@ -99,7 +99,7 @@ width="32" height="32" alt="LinkedIn" />
 
 # License
 
-Copyright © 2024, [MozillaFirefox-VIT](https://github.com/MFC-VIT) and all other contributors.
+Copyright © 2024, [MozillaFirefox-VIT](https://github.com/MFC-VIT) and all other contributors. Released under the [MIT License](LICENSE).
 
 <p align="center">
 Made with ❤️ by <a href="https://mozillavit.in/" target="_blank">MFC-VIT</a>
