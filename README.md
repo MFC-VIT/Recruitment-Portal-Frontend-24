@@ -85,7 +85,7 @@ style="border: 2px solid grey; width: 160px; height: 160px" />
 <p style="font-size: 16px; font-weight: 600">
 Vinayak Raina</p>
 <p align="center">
-<a href="https://github.com/HarshitPG"><img
+<a href="https://github.com/RAINAVINAYAK16"><img
 src="https://www.iconninja.com/files/930/277/269/github-icon.png"
 width="32" height="32" alt="GitHub" /></a>
 <a href="https://www.linkedin.com/in/vinayak-raina-08a71a253/">
