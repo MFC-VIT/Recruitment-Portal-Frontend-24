@@ -2,7 +2,7 @@
 </p>
 <br />
 
-# Recruitment Portel Frontend '24
+# Recruitment Portal Frontend '24
 
 The official Frontend of MFC-VIT recruitment of 2024.
 
